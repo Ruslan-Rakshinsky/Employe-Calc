@@ -40,9 +40,9 @@ public class Employees implements IEmployeeInfo {
     @Override
     public void Display() {
         for (Employee e: employeeList) {
-            System.out.println(e.getName());
-            System.out.println(e.getPersonalNumber());
-            System.out.println(e.getWorkingHours());
+            System.out.print(e.getName() +", ");
+            System.out.print(e.getPersonalNumber() +", ");
+            System.out.print(e.getWorkingHours() + ", ");
             System.out.println(e.getRate() + '\n');
         }
         System.out.println(AvgSalary());
