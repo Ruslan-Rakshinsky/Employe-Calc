@@ -10,12 +10,6 @@ import java.util.List;
 public class Employees implements IEmployeeInfo {
     List<Employee> employeeList = new ArrayList<>();
 
-    public static void main(String[] args) {
-        Employees e = new Employees();
-        e.Input();
-        e.Display();
-    }
-
     @Override
     public void Input() {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
@@ -43,9 +37,9 @@ public class Employees implements IEmployeeInfo {
             System.out.print(e.getName() +", ");
             System.out.print(e.getPersonalNumber() +", ");
             System.out.print(e.getWorkingHours() + ", ");
-            System.out.println(e.getRate() + '\n');
+            System.out.println(e.getRate());
         }
-        System.out.println(AvgSalary());
+        System.out.println("\n" + AvgSalary());
 
     }
 
