@@ -1,4 +1,4 @@
-package org.example;
+package ru.eerror;
 
 public class Main {
     public static void main(String[] args) {

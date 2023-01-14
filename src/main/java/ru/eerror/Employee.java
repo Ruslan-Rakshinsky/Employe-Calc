@@ -1,4 +1,4 @@
-package org.example;
+package ru.eerror;
 
 public class Employee {
     private final String name;

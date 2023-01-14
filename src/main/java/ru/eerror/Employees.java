@@ -1,4 +1,4 @@
-package org.example;
+package ru.eerror;
 
 
 import java.io.BufferedReader;

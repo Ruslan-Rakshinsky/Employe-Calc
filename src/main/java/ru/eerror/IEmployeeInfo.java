@@ -1,4 +1,4 @@
-package org.example;
+package ru.eerror;
 
 public interface IEmployeeInfo {
     void Input();
