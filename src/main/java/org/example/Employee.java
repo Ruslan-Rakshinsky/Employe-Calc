@@ -7,7 +7,7 @@ public class Employee {
     private float salary;
     private final String personalNumber;
 
-    public Employee(String name, int workingHours, float rate, String personalNumber) {
+    public Employee(String name,String personalNumber, int workingHours, float rate) {
         this.name = name;
         this.workingHours = workingHours;
         this.rate = rate;
@@ -31,6 +31,7 @@ public class Employee {
     }
 
     public float getSalary() {
+        salary = rate * workingHours;
         return salary;
     }
 }
