@@ -14,7 +14,6 @@ public class Employees implements IEmployeeInfo {
     public void Input() {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int n = Integer.parseInt(br.readLine());
-            System.out.println(n);
             for (int i = 0; i < n; i++) {
                 String name = br.readLine();
                 String personalNumber = br.readLine();
