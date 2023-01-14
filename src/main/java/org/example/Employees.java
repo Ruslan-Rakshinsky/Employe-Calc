@@ -1,13 +1,11 @@
 package org.example;
 
-import jdk.internal.util.xml.impl.Input;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.OptionalDouble;
 
 public class Employees implements IEmployeeInfo {
     List<Employee> employeeList = new ArrayList<>();

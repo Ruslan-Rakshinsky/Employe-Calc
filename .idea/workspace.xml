@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f0863e-99c2-41ad-81d1-257250d01ac4" name="Changes" comment="kind of implemented input">
+    <list default="true" id="76f0863e-99c2-41ad-81d1-257250d01ac4" name="Changes" comment="implemented Display and AvgSalary methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IEmployeeInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673695097076</updated>
-      <workItem from="1673695099104" duration="4295000" />
+      <workItem from="1673695099104" duration="4362000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1673695463151</created>
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673697090898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implemented Display and AvgSalary methods">
+      <created>1673699430174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673699430174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="kind of implemented input" />
-    <option name="LAST_COMMIT_MESSAGE" value="kind of implemented input" />
+    <MESSAGE value="implemented Display and AvgSalary methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Display and AvgSalary methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
